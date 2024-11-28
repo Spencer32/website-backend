@@ -295,3 +295,42 @@ echo '<br>';
 var_dump($phone);
 
 $phone["model"] = '15 pro';
+
+// 11/25/2024
+
+function greetMe() {
+    echo "<br> good afternoon"; 
+}
+
+greetMe();
+
+function streetName ($sname){
+    echo "$sname Asaba, <br>";
+
+}
+
+    echo "<br>";
+    
+
+streetName ("DLA");
+
+streetName("PRINCE");
+
+echo "<br>";
+
+function HomeAddress ($snumber, $sname){
+    echo "$snumber street $sname Asaba, <br>";
+
+}
+
+    echo "<br>";
+    
+
+HomeAddress ("5th", "DLA");
+
+HomeAddress("7th", "PRINCE");
+
+
+
+
+?>
